@@ -8,8 +8,7 @@ public class GitSpringbootStudyApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GitSpringbootStudyApplication.class, args);
-        System.out.println("helloworld");
-        System.out.println("创建分支后");
+        System.out.println("这是branch1的修改");
     }
 
 }
