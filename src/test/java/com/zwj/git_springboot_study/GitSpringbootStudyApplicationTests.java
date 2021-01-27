@@ -10,5 +10,9 @@ class GitSpringbootStudyApplicationTests {
     void contextLoads() {
         System.out.println("测试修改");
     }
+    @Test
+    public void test() {
+        System.out.println(com.zwj.git_springboot_study.util.JDBCUtil.getConn());;
+    }
 
 }
