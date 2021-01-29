@@ -26,8 +26,8 @@ public class JDBCUtil {
 
     }
     /***
-     * description: »ñÈ¡Ò»ÌõÁ¬½Ó
-     * @param: ÎŞ
+     * description: è·å–ä¸€æ¡è¿æ¥
+     * @param: æ— 
      * @return: java.sql.Connection
      * @author zwj
      * @date: 2020/8/28 10:35
@@ -45,7 +45,7 @@ public class JDBCUtil {
 
 
     /***
-     * description: ¹Ø±ÕÁ¬½Ó
+     * description: å…³é—­è¿æ¥
      * @param: conn
      * @return: void
      * @author zwj

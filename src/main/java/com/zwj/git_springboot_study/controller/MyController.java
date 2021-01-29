@@ -17,7 +17,7 @@ public class MyController {
     StudentDao studentDao;
     @GetMapping("/test")
     String index() {
-        Student student = studentDao.getById(1);
+        Student student = studentDao.getStudentById(1);
         System.out.println(student);
         return "index";
     }

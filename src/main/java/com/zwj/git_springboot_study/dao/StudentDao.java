@@ -1,8 +1,13 @@
 package com.zwj.git_springboot_study.dao;
 
+import com.zwj.git_springboot_study.model.Book;
 import com.zwj.git_springboot_study.model.Student;
+import org.apache.ibatis.annotations.MapKey;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
+
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * @Author:zengwenjie
@@ -10,5 +15,12 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public interface StudentDao {
-    public Student getById(int id);
+    public Student getStudentById(int id);
+    public Student getStudentByIdSteps(int id);
+
+    public List<Book> getAllBooks();
+    @MapKey("id")
+    public HashMap<Integer, Book> getAllBooksToMap();
 }
+
+

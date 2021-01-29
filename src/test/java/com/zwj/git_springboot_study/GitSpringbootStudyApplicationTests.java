@@ -1,5 +1,8 @@
 package com.zwj.git_springboot_study;
 
+import com.zwj.git_springboot_study.cglibStudy.SayHello;
+import com.zwj.git_springboot_study.cglibStudy.SayHelloIml;
+import com.zwj.git_springboot_study.cglibStudy.SayHelloProxy;
 import com.zwj.git_springboot_study.dao.StudentDao;
 import com.zwj.git_springboot_study.model.Student;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -23,11 +26,7 @@ class GitSpringbootStudyApplicationTests {
         System.out.println(com.zwj.git_springboot_study.util.JDBCUtil.getConn());;
     }
 
-    @Test
-    public void test1() {
 
-
-    }
 
 
 }
